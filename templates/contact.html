@@ -1,0 +1,18 @@
+{% extends "_base.html" %}
+
+{% block title %}Contact{% endblock title %}
+
+{% block body %}
+    <h1>{{title}}</h1>
+    <h3>{{subtitle}}</h3>
+    <p>{{email}}</p>
+    <p>{{phone}}</p>
+
+    <form method="post" class="contact-form">
+        {% csrf_token %}
+        
+        {{form}}
+
+        <button>Küldés</button>
+    </form>
+{% endblock body %}

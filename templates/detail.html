@@ -1,0 +1,20 @@
+{% extends "_base.html" %}
+
+{% block title %}Photo details{% endblock title %}
+
+{% block body %}
+
+<div class="photo-details">
+    <div>
+        <img src={{photo.image.url}} alt="">
+    </div>
+    <div>
+        <h1>{{photo.title}}</h1>
+        <small>{{photo.uploaded|date:'Y N d H:i'}}</small>
+        <br>
+        <br>
+        <h3>{{photo.description}}</h3>
+    </div>
+</div>
+
+{% endblock body %}

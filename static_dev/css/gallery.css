@@ -1,0 +1,42 @@
+.gallery-layout{
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-layout .menu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 60px;
+}
+
+.gallery-layout .active{
+    background-color: #393f44;
+    color: white;
+}
+
+.category-button{
+    padding: 10px;
+    text-decoration: none;
+    background-color: white;
+    color: #393f44;
+    transition: all 0.3s;
+    z-index: 10;
+}
+
+.category-button:hover{
+    background-color: #393f44;
+    color: white;
+}
+
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.image-grid img{
+    width: 100%;
+    border-radius: 5px;
+}

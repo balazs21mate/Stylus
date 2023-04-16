@@ -1,0 +1,41 @@
+.contact-form{
+    border: 1px solid #393f44;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 20px;
+}
+
+.contact-form input, textarea{
+    margin: 10px;
+    border: none;
+    background-color: rgba(0,0,0, 0.1);
+    padding: 10px;
+    font: inherit;
+    outline: none;
+}
+
+textarea{
+    resize: vertical;
+}
+
+.contact-form button{
+    background-color: white;
+    color: #393f44;
+    cursor: pointer;
+    border: none;
+    font: inherit;
+    font-size: 20px;
+    align-self: flex-end;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-form button:hover{
+    background-color: #393f44;
+    color: white;
+    transition: all 0.3s;
+}

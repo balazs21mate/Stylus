@@ -1,0 +1,11 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+header div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,15 @@
+.home-container{
+    display: grid;
+    grid-template-columns: auto 350px;
+    grid-gap: 20px;
+}
+
+.home-container img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.sticky-container{
+    position: sticky;
+    top: 60px;
+}

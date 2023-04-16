@@ -1,0 +1,12 @@
+<nav>
+    <div class="mobile">
+        <h1 class="nav-button" onclick="menu_clicked()">Menu</h1>
+    </div>
+
+    <div class="desktop" id="desktop-menu-container">
+        <a href="/" class="nav-button {% if request.get_full_path == '/' %}active{% endif %}">Home</a>
+        <a href="/contact" class="nav-button {% if request.path == '/contact/' %}active{% endif %}">Contact</a>
+        <a href="/about" class="nav-button {% if request.path == '/about/' %}active{% endif %}">About</a>
+        <a href="/gallery" class="nav-button {% if request.path == '/gallery/' %}active{% endif %}">Gallery</a>
+    </div>
+</nav>

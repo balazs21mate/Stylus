@@ -1,0 +1,26 @@
+@import "navbar.css";
+@import "header.css";
+@import "home.css";
+@import "gallery.css";
+@import "details.css";
+@import "contact.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3{
+    color: brown;
+    font-weight: 300;
+}
+
+.content-container{
+    max-width: 800px;
+    margin: 0 auto;
+}

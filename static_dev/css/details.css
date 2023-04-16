@@ -1,0 +1,11 @@
+.photo-details{
+    margin-top: 1rem;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto 200px;
+}
+
+.photo-details img{
+    width: 100%;
+    border-radius: 10px;
+}
